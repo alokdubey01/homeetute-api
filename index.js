@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 // const fs = require('fs');
 
 const app = express();
-const port = 3000;
+const port = 3000 | process.env.PORT;
 
 // Azure service credentials
 const key = "87f12764184d404788988cae1acac79f";
