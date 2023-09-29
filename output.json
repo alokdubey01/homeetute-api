@@ -1,0 +1,242 @@
+[
+  {
+    "key": {
+      "content": "सत्यमेव जयते",
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            {
+              "x": 171,
+              "y": 165
+            },
+            {
+              "x": 260,
+              "y": 165
+            },
+            {
+              "x": 260,
+              "y": 182
+            },
+            {
+              "x": 171,
+              "y": 182
+            }
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "offset": 29,
+          "length": 9
+        }
+      ]
+    },
+    "confidence": 0.675
+  },
+  {
+    "key": {
+      "content": "ज्वाला\nदुबे",
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            {
+              "x": 443,
+              "y": 201
+            },
+            {
+              "x": 768,
+              "y": 202
+            },
+            {
+              "x": 768,
+              "y": 270
+            },
+            {
+              "x": 443,
+              "y": 269
+            }
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "offset": 39,
+          "length": 3
+        },
+        {
+          "offset": 48,
+          "length": 2
+        }
+      ]
+    },
+    "value": {
+      "content": "Jvala Prasad Dubey",
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            {
+              "x": 449,
+              "y": 277
+            },
+            {
+              "x": 866,
+              "y": 277
+            },
+            {
+              "x": 866,
+              "y": 326
+            },
+            {
+              "x": 449,
+              "y": 326
+            }
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "offset": 51,
+          "length": 18
+        }
+      ]
+    },
+    "confidence": 0.284
+  },
+  {
+    "key": {
+      "content": "जन्म तिथि / DOB :",
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            {
+              "x": 445,
+              "y": 337
+            },
+            {
+              "x": 832,
+              "y": 337
+            },
+            {
+              "x": 832,
+              "y": 388
+            },
+            {
+              "x": 445,
+              "y": 388
+            }
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "offset": 70,
+          "length": 14
+        }
+      ]
+    },
+    "value": {
+      "content": "13/02/1969",
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            {
+              "x": 849,
+              "y": 339
+            },
+            {
+              "x": 1068,
+              "y": 339
+            },
+            {
+              "x": 1069,
+              "y": 381
+            },
+            {
+              "x": 849,
+              "y": 384
+            }
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "offset": 85,
+          "length": 10
+        }
+      ]
+    },
+    "confidence": 0.862
+  },
+  {
+    "key": {
+      "content": "पुरुष /",
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            {
+              "x": 445,
+              "y": 413
+            },
+            {
+              "x": 561,
+              "y": 410
+            },
+            {
+              "x": 563,
+              "y": 463
+            },
+            {
+              "x": 447,
+              "y": 467
+            }
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "offset": 96,
+          "length": 5
+        }
+      ]
+    },
+    "value": {
+      "content": "Male",
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            {
+              "x": 575,
+              "y": 409
+            },
+            {
+              "x": 668,
+              "y": 409
+            },
+            {
+              "x": 668,
+              "y": 452
+            },
+            {
+              "x": 576,
+              "y": 459
+            }
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "offset": 102,
+          "length": 4
+        }
+      ]
+    },
+    "confidence": 0.005
+  }
+]
