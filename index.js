@@ -1,6 +1,7 @@
 const express = require('express');
 const { AzureKeyCredential, DocumentAnalysisClient } = require('@azure/ai-form-recognizer');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 // const fs = require('fs');
 
 const app = express();
@@ -11,6 +12,8 @@ const key = "87f12764184d404788988cae1acac79f";
 const endpoint = "https://homeetute.cognitiveservices.azure.com/";
 
 app.use(bodyParser.json());
+
+app.use(cors());
 
 app.post('/analyzeDocument', async (req, res) => {
   try {
