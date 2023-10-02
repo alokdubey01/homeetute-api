@@ -17,7 +17,9 @@ app.post('/analyzeDocument', async (req, res) => {
     const { documentUrl } = req.body;
 
     if (!documentUrl) {
-      return res.status(400).json({ error: 'Missing documentUrl in the request body.' });
+      res.status(400).json({ error: 'Missing documentUrl in the request body.' });
+      res.send('404 Not Found');
+      return;
     }
 
     const client = new DocumentAnalysisClient(endpoint, new AzureKeyCredential(key));
@@ -31,12 +33,15 @@ app.post('/analyzeDocument', async (req, res) => {
 
     if (result) {
       res.status(200).json(result);
+      res.send(result);
     } else {
       res.status(400).json({ error: 'No result found for document analysis.' });
+      res.send('No result found for document analysis');
     }
   } catch (error) {
     console.error('An error occurred:', error);
     res.status(500).json({ error: 'An error occurred while processing the document.' });
+    res.send('500 Internal Server Error');
   }
 });
 
